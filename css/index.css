@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Font+Name&display=swap');
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+}
+a{
+  color: #ffffff;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+  }
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+  }
+
+  .btn-danger:hover {
+    background-color: #c82333;
+    text-decoration: none;
+  }
+  .btn-list {
+    background-color: #257beb;
+    
+    text-decoration: none;
+  }
+
+  .btn-list:hover {
+    background-color: #034cb9;
+    text-decoration: none;
+  }
+  .btn-mode {
+    background-color: #ffffff;
+    border-radius: 100px;
+    text-decoration: none;
+    color:#000000;
+    
+  }
+  
+  .btn-mode:hover {
+    background-color: #9f9e9e;
+    border-radius: 100px;
+    text-decoration: none;
+    color:#000000
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  .container_flex{
+    display: flex;
+    text-align: center;
+  }
+  .container_flexcard{
+    width: 30%;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    
+  }
+
+.header {
+  text-align: center;
+  padding: 15px;
+  background-color: #034cb9;
+}
+
+.header .image {
+  background: url("/lab_questionnaire/logo.png");
+  width: 65px;
+  
+  
+}
+
+.header .text {
+  font-size: 15px;
+  padding-top: 20px;
+  color: #ffffff;
+  
+  
+}
+
+.header .image, 
+.header .text {
+  display: inline-block;
+  vertical-align:top;
+  padding-right: 20px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+:root {
+  --background-color: #f0f0f0;
+  --text-color: #000000;
+  --btn-bg-color: #257beb;
+  --btn-hover-bg: #034cb9;
+  --btn-danger-bg: #dc3545;
+  --btn-danger-hover-bg: #c82333;
+  --header-bg: #034cb9;
+  --header-text-color: #ffffff;
+}
+
+.dark-mode {
+
+  --background-color: #565656;
+  --text-color: #ffffff;
+  --btn-bg-color: #13215a;
+  --btn-hover-bg: rgb(0, 16, 50);
+  --btn-danger-bg: #b02a37;
+  --btn-danger-hover-bg: #8a1f2a;
+  --header-bg: #13215a;
+  --header-text-color: #ffffff;
+}
+
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.container_flexcard{
+  width: 30%;
+  background-color: var(--background-color);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  
+}
+.toggle-btn {
+  background-color: var(--btn-bg-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: var(--btn-hover-bg);
+}
+
+.header {
+  padding: 20px;
+  background-color: var(--header-bg);
+  color: var(--header-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-text {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
